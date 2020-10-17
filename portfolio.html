@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set character set, Title webpage, link to local CSS, and link to Bootstrap -->
+    <meta charset="UTF-8" />
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- Navigation Bar, containing links to Home page, Resume page, Portfolio page, and contact me page -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="col-md-6">
+            <a class="navbar-brand" href="index.html">Chason Renz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <!-- Navigation menu items -->
+        <div class="col-md-6">
+            <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <br>
+    <!-- The whole content is wrapped in the container for styling and centering on the page -->
+    <section class="container ">
+        <div class="color-header">
+            <!-- Project page title  -->
+            <h1>Click the image to see deployed projects!</h1>
+        </div>
+        <br>
+        <!-- Jumbotron style card for project 1 -->
+        <section class="jumbotron project-listing container">
+            <h1 class="display-5">Wherever the Weather</h1>
+            <p class="lead">A website from scratch that uses a weather database to allow the user to view weather and book a flight in any major global city</p>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-12">
+                            Languages: HTML5, CSS, Javascript
+                        </div>
+                    </div>
+                    <!-- This is so the horizontal line doens't go too far up to the pic /link -->
+                    <div class="row">
+                        <div class="col-md-10">
+                            <hr class="my-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            Applications: Bootstrap, Font Awesome
+                        </div>
+                    </div>
+                </div>
+
+                <!-- link to project page, link image -->
+                <div class="col-md-5">
+                    <a target="_blank" href="https://chasonrenz.github.io/Homework6/"><img
+                            class="project-link-pic hvr-grow img-fluid" src="weatherscreenshot.jpg"
+                            alt="Home-Page-Link"></a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Jumbotron style card for project 2 -->
+        <section class="jumbotron project-listing container">
+            <h1 class="display-5">SHAKR</h1>
+            <p class="lead">A website that outputs cocktails based on the input of ingredients the end user has available.
+                If a cocktail isnt delicous or is unable to be rendered, SHAKR will route the end user to the nearest bar or restaurant.
+                *virgin recipies included - tasty!
+            </p>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-12">
+                            Languages: HTML5, CSS, javascript
+                        </div>
+                    </div>
+                    <!-- This is so the horizontal line doens't go too far up to the pic /link -->
+                    <div class="row">
+                        <div class="col-md-10">
+                            <hr class="my-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- link to project page, link image -->
+                <div class="col-md-5">
+                    <a target="_blank" href="https://abraspin.github.io/Project-1-The-Silent-Marvels-/"><img
+                            class="project-link-pic hvr-grow" src="shakrscreenshot.jpg"
+                            alt=" code-refactor-link"></a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Javascript references -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
